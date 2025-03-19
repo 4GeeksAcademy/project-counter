@@ -11,8 +11,12 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
+setInterval(()=>{
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Home/>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
+}, 1000)
+
+
